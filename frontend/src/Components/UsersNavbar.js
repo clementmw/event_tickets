@@ -5,6 +5,9 @@ const UsersNavbar = () => {
   return (
     <nav className="bg-white py-4"> 
       <ul className="flex justify-center px-8">
+      <li className="mx-6">
+          <Link to="/" className="text-black hover:text-blue-600">Home</Link>
+        </li>
         <li className="mx-6">
           <Link to="/upcoming-events" className="text-black hover:text-blue-600">Upcoming Events</Link>
         </li>
