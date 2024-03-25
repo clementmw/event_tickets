@@ -46,7 +46,7 @@ const Navbar = () => {
                   Create Event
                 </Link>
 
-                <a href="/register" className="ml-6 text-gray-800 hover:text-blue-600 transition duration-300 ease-in-out text-xl">
+                <a href="/login" className="ml-6 text-gray-800 hover:text-blue-600 transition duration-300 ease-in-out text-xl">
                   Login
                 </a>
 

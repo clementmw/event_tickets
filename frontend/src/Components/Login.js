@@ -11,7 +11,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post('https://event-ticketing-backend.onrender.com/auth/register',{username,password})
+    axios.post('https://event-ticketing-backend.onrender.com/auth/login',{username,password})
 
       .then(res => {
         console.log(res);
@@ -60,7 +60,7 @@ function Login() {
             Login
           </button>
           <div className="mt-4">
-            <p>Don't have an account? <Link to="/signup" className="text-blue-500">Register</Link></p>
+            <p>Don't have an account? <Link to="/register" className="text-blue-500">Register</Link></p>
           </div>
         </form>
       </div>
