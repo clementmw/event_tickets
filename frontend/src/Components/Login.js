@@ -11,7 +11,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post('https://event-ticketing-backend.onrender.com/auth/login',{username,password})
+    axios.post('https://event-ticketing-backend.onrender.com/auth/register',{username,password})
 
       .then(res => {
         console.log(res);
