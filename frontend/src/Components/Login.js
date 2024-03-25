@@ -15,7 +15,9 @@ function Login() {
 
       .then(res => {
         console.log(res);
-        alert('Logged in successfully');
+        alert('Logged in successfully');       
+        console.log("this is the login page")
+
 
         // Store the access JWT token in local storage
         localStorage.setItem('access_token', res.data.Token.access);
